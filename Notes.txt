@@ -1,0 +1,18 @@
+https://jewitdev.wpengine.com/wp-content/themes/hello-elementor-child//assets/js/script.js?v=1069748165
+
+/*Checkout page steps*/
+jQuery(document).on('click','#customer_details button.nextsetup',function(){
+	var active_setup = jQuery(this).data('setup');
+	jQuery(this).closest('.active').removeClass('active');
+	jQuery('.setup'+active_setup).addClass('active');
+	jQuery('.checkoutstep').removeClass('active');
+	jQuery('.progress'+active_setup).addClass('active');
+});
+
+jQuery(document).on('click','.woocommerce .progressbar li',function(){
+	var active_setup = jQuery(this).data('setup');
+	jQuery('.checkoutstep').removeClass('active');
+	jQuery('.progress'+active_setup).addClass('active');
+	jQuery('.setups').removeClass('active');
+	jQuery('.setup'+active_setup).addClass('active');
+});

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 40%;
+    margin: 3rem;
+    padding: 5px;
+}
+.step2 {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.top {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.top span {
+    cursor: pointer;
+}
+.top .active {
+    font-weight: bolder;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+.header2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label[for="member"] input {
+    margin-right: 0.2rem;
+}
+
+label[for="member"] p {
+    display: inline;
+    font-size: 1.1rem;
+}
+
+label[for="btn"] input {
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.widthf input,
+.widthf select,
+.widthf option {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.widthf p,
+.widthh p {
+    font-size: 1.3rem;
+    width: 100%;
+}
+.widthh {
+    width: 100%;
+}
+
+.widthh input {
+    width: 100%;
+    height: 40px;
+    margin: 0.5rem 0;
+}
+
+.flex {
+    display: flex;
+    gap: 4rem;
+}
+
+/*  */
+
+form .step3 {
+    width: 100%;
+    height: min-content;
+    background-color: #ebe9eb;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+}
+
+form .step3 label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+form .step3 p {
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+
+form .step3 p a {
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: #d26a81;
+}
+
+.step3 label[for="btn"] {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+}
+
+.step3 label[for="btn"] input {
+    background: #a46497;
+    color: #fff;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 1rem;
+    width: 20% !important;
+    font-weight: bolder;
+    border: none;
+}
+
+/*  */
+
+.comman {
+    display: none;
+}
+
+form .active {
+    display: block;
+}
